@@ -1,0 +1,36 @@
+export const stack = [
+  'React.js',
+  'Next.js',
+  'Vue.js',
+  'Nuxt.js',
+  'Gatsby.js',
+  'TailwindCss',
+  'Styled-Components',
+  'Material UI',
+  'Chakra UI',
+  'Vuetify',
+  'Bootstrap',
+  'Node.js',
+  'Django',
+  'Django Rest Framework',
+  'GraphQL',
+  'Prisma',
+  'Supabase',
+  'MongoDB',
+  'MySQL',
+  'PostgreSQL',
+  'Contentful',
+  'Strapi',
+  'Sanity',
+  'Google Cloud Platform',
+  'RESTful APIs',
+];
+
+//
+export const info = [
+  "I'm Liem Nguyen, a full stack web developer. Therefore, I can work well as a frontend developer and a backend developer. The stack is MERN stack which is MongoDB, Express, React.js, Node.js. Besides, I have a strong knowledge of Next.js, Vue.js, Nuxt.js, Gatsby.js, MySQL, Material-UI.",
+  'In term of my educational background, I hold an Advanced Diploma of APTECH Computer Education (India) in Software Engineering. I also graduated from Centennial College (Toronto) with a Diploma in Software Engineering.',
+  'After college graduation, I have been spending a lot of my time on learning new technology, building some websites, taking some training and internships to keep myself updated with the latest technology.',
+  'I also find some online resources like Youtube or Udemy are good resources for me to learn more about the latest computer science and web development concepts.',
+  'In my spare time, I enjoy cooking, watching movies, doing yoga and hanging out with friends.',
+];
