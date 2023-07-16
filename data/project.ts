@@ -114,6 +114,19 @@ export const projects = [
       'User can view, create, update and delete books',
     ],
   },
+  {
+    id: '8',
+    title: 'Restaurant UI',
+    slug: 'restaurant-ui',
+    url: 'https://nextrestaurant-nine.vercel.app',
+    github: 'https://github.com/daniel-liemng/restaurant_ui_next',
+    image: '/project-8.png',
+    featured: true,
+    stack: ['Next', 'TailwindCss', 'Framer Motion'],
+    desc: [
+      'A restaurant UI clone from Webflow template: https://silverspoon-template.webflow.io',
+    ],
+  },
   // {
   //   id: '1',
   //   title: '',
