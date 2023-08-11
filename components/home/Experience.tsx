@@ -56,8 +56,8 @@ const Experiences = () => {
 const ExperienceWrapper = styled.section`
   .jobs-center {
     width: 80vw;
-    height: 500px; ///// modify height if content is long
-    min-height: 500px;
+    height: 450px; ///// modify height if content is long
+    min-height: 450px;
     margin: 0 auto;
     max-width: 1170px;
   }
@@ -121,7 +121,7 @@ const ExperienceWrapper = styled.section`
 
   @media screen and (max-width: 450px) {
     .jobs-center {
-      height: 550px;
+      height: 1000px;
       .btn-container {
         flex-direction: column;
         justify-content: flex-start;

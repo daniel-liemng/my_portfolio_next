@@ -15,7 +15,7 @@ export const jobs = [
   {
     id: '2',
     date: 'Oct 2020 - Jan 2021',
-    position: 'Full Stack Web Developer',
+    position: 'Full Stack Web Developer - Intern',
     company: 'inTellee Information Technology Inc.',
     jobDesc: [
       'Used MERN stack to develop app solutions.',
@@ -31,9 +31,10 @@ export const jobs = [
   {
     id: '3',
     date: 'Oct 2021 - Apr 2022',
-    position: 'Database Admin',
+    position: 'Database Administrator',
     company: 'VWAT',
     jobDesc: [
+      'Volunteer role',
       'Developed and updated databases to handle customer data.',
       'Worked with staff to develop and implement procedures to prevent data loss and maximize system availability.',
       'Created and updated database designs and data models.',
@@ -48,6 +49,7 @@ export const jobs = [
     position: 'Data Entry',
     company: 'PWA',
     jobDesc: [
+      'Volunteer role',
       'Completed data entry tasks with accuracy and efficiency.',
       'Organized, sorted, and checked input data against original documents.',
       'Communicated with supervisors and colleagues to process data quickly and resolve discrepancies.',
