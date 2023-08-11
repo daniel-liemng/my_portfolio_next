@@ -1,5 +1,29 @@
 export const projects = [
   {
+    id: '0',
+    title: 'Job Search Dashboard',
+    slug: 'school-board-dashboard',
+    url: 'https://jobsearch-dashboard.vercel.app',
+    github: 'https://github.com/daniel-liemng/job-search-next-prisma-supabase',
+    image: '/project-9.png',
+    featured: true,
+    stack: [
+      'Next.js',
+      'NextAuth',
+      'Prisma',
+      'Supabase',
+      'Typescript',
+      'React Query',
+      'React Hook Form',
+      'TailwindCss',
+    ],
+    desc: [
+      'A dashboard web application for employers to manage the company, category, and jobs.',
+      'Users can login with email or Google account',
+      'Images are uploaded and stored in Supabase bucket.',
+    ],
+  },
+  {
     id: '1',
     title: 'School Board',
     slug: 'school-board',
