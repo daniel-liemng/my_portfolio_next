@@ -2,7 +2,7 @@ export const projects = [
   {
     id: '0',
     title: 'Job Search Dashboard',
-    slug: 'school-board-dashboard',
+    slug: 'job-search-dashboard',
     url: 'https://jobsearch-dashboard.vercel.app',
     github: 'https://github.com/daniel-liemng/job-search-next-prisma-supabase',
     image: '/project-9.png',
