@@ -35,11 +35,13 @@ export const projects = [
     stack: [
       'React',
       'Node',
+      'Express',
       'MongoDB',
       'React Query',
-      'Typescript',
+      'Redux Toolkit',
       'React Hook Form',
       'Cloudinary',
+      'Typescript',
       'Material UI',
     ],
     desc: [
