@@ -30,12 +30,21 @@ const Hero = () => {
               delay: 0.5,
             }}
           >
-            Web Developer
+            Full Stack Web Developer
           </motion.h3>
           <div className='underline'></div>
+          <a
+            href='Resume_HoangLiemNguyen.pdf'
+            download='Resume_HoangLiemNguyen'
+            className='btn'
+            style={{ marginRight: '1rem' }}
+          >
+            Resume
+          </a>
           <Link href='/contact' className='btn'>
             Contact me
           </Link>
+
           <div className='social-links'>
             {socialLinks.map((item) => (
               <a

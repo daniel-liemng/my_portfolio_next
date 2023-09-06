@@ -101,7 +101,7 @@ const ProjectWrapper = styled.article`
     .project-stack {
       display: flex;
       flex-wrap: wrap;
-      gap: 0.5rem;
+      gap: 1rem;
       margin-bottom: 1.5rem;
 
       div {

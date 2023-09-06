@@ -17,7 +17,7 @@ const ProjectDetailsPage = () => {
     project;
 
   if (!project) {
-    return <>No FOund</>;
+    return <>No Found</>;
   }
 
   return (

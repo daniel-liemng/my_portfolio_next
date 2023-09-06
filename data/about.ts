@@ -1,3 +1,34 @@
+export const stackIcons = [
+  '/icons/Javascript.svg',
+  '/icons/TypeScript.svg',
+  '/icons/HTML.svg',
+  '/icons/CSS.svg',
+  '/icons/Sass.svg',
+  '/icons/React-Dark.svg',
+  '/icons/Redux.svg',
+  '/icons/NextJS-Dark.svg',
+  '/icons/Gatsby.svg',
+  // '/icons/Angular-Dark.svg',
+  '/icons/TailwindCSS-Dark.svg',
+  '/icons/MaterialUI-Dark.svg',
+  '/icons/Bootstrap.svg',
+  '/icons/StyledComponents.svg',
+  '/icons/NodeJS-Dark.svg',
+  '/icons/ExpressJS-Dark.svg',
+  '/icons/Django.svg',
+  '/icons/MongoDB.svg',
+  '/icons/Prisma.svg',
+  '/icons/Supabase-Dark.svg',
+  '/icons/GraphQL-Dark.svg',
+  '/icons/PostgreSQL-Dark.svg',
+  '/icons/Firebase-Dark.svg',
+  '/icons/MySQL-Dark.svg',
+  '/icons/Figma-Dark.svg',
+  '/icons/Postman.svg',
+  '/icons/Github-Dark.svg',
+  '/icons/VSCode-Dark.svg',
+];
+
 export const stack = [
   'React.js',
   'Next.js',
@@ -28,7 +59,7 @@ export const stack = [
 
 //
 export const info = [
-  "I'm Liem Nguyen, a full stack web developer. Therefore, I can work well as a frontend developer and a backend developer. The stack is MERN stack which is MongoDB, Express, React.js, Node.js. Besides, I have a strong knowledge of Next.js, Vue.js, Nuxt.js, Gatsby.js, MySQL, Material-UI.",
+  "I'm Liem Nguyen, a full stack web developer. Therefore, I can work well as a frontend developer and a backend developer. The stack is MERN stack which is MongoDB, Express, React.js, Node.js and Next.js. Besides, I have a strong knowledge of TypeScript, Gatsby.js, MySQL, Material-UI.",
   'In term of my educational background, I hold an Advanced Diploma of APTECH Computer Education (India) in Software Engineering. I also graduated from Centennial College (Toronto) with a Diploma in Software Engineering.',
   'After college graduation, I have been spending a lot of my time on learning new technology, building some websites, taking some training and internships to keep myself updated with the latest technology.',
   'I also find some online resources like Youtube or Udemy are good resources for me to learn more about the latest computer science and web development concepts.',

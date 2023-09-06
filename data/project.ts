@@ -5,7 +5,7 @@ export const projects = [
     slug: 'job-search-dashboard',
     url: 'https://jobsearch-dashboard.vercel.app',
     github: 'https://github.com/daniel-liemng/job-search-next-prisma-supabase',
-    image: '/project-9.png',
+    image: '/project-10.png',
     featured: true,
     stack: [
       'Next.js',
@@ -16,6 +16,7 @@ export const projects = [
       'React Query',
       'React Hook Form',
       'TailwindCss',
+      'Chart.js',
     ],
     desc: [
       'A dashboard web application for employers to manage the company, category, and jobs.',
@@ -69,7 +70,7 @@ export const projects = [
     url: '',
     github: 'https://github.com/daniel-liemng/employee_react_django',
     image: '/project-3.png',
-    featured: true,
+    featured: false,
     stack: [
       'React',
       'Django',
@@ -83,21 +84,34 @@ export const projects = [
       'A web application with React and Django - Django Rest Framework to manage employees',
     ],
   },
-
   {
     id: '4',
-    title: 'Peer Code Review',
-    slug: 'peer-code-review',
-    url: 'https://default-site.netlify.app',
-    github: 'https://github.com/hatchways/team-dragonfruit',
-    image: '/project-4.png',
+    title: 'Restaurant UI',
+    slug: 'restaurant-ui',
+    url: 'https://nextrestaurant-nine.vercel.app',
+    github: 'https://github.com/daniel-liemng/restaurant_ui_next',
+    image: '/project-8.png',
     featured: true,
-    stack: ['React', 'Node', 'MongoDB', 'Stripe', 'Material UI'],
+    stack: ['Next.js', 'TailwindCss', 'Framer Motion'],
     desc: [
-      'A MERN stack web application that enables users to upload their code snippets and have them reviewed by other developers.',
-      'Users can top up credits that is processed by Stripe.',
+      'A restaurant UI clone from Webflow template: https://silverspoon-template.webflow.io',
     ],
   },
+
+  // {
+  //   id: '4',
+  //   title: 'Peer Code Review',
+  //   slug: 'peer-code-review',
+  //   url: 'https://default-site.netlify.app',
+  //   github: 'https://github.com/hatchways/team-dragonfruit',
+  //   image: '/project-4.png',
+  //   featured: true,
+  //   stack: ['React', 'Node', 'MongoDB', 'Stripe', 'Material UI'],
+  //   desc: [
+  //     'A MERN stack web application that enables users to upload their code snippets and have them reviewed by other developers.',
+  //     'Users can top up credits that is processed by Stripe.',
+  //   ],
+  // },
   {
     id: '5',
     title: 'Chat App',
@@ -105,7 +119,7 @@ export const projects = [
     url: 'https://chat-react-node-socketio.netlify.app',
     github: 'https://github.com/daniel-liemng/chat_socketio_react_node',
     image: '/project-5.png',
-    featured: true,
+    featured: false,
     stack: ['React', 'Node', 'Socket.io'],
     desc: ['A real time chat application built with socket.io'],
   },
@@ -138,19 +152,7 @@ export const projects = [
       'User can view, create, update and delete books',
     ],
   },
-  {
-    id: '8',
-    title: 'Restaurant UI',
-    slug: 'restaurant-ui',
-    url: 'https://nextrestaurant-nine.vercel.app',
-    github: 'https://github.com/daniel-liemng/restaurant_ui_next',
-    image: '/project-8.png',
-    featured: true,
-    stack: ['Next', 'TailwindCss', 'Framer Motion'],
-    desc: [
-      'A restaurant UI clone from Webflow template: https://silverspoon-template.webflow.io',
-    ],
-  },
+
   // {
   //   id: '1',
   //   title: '',

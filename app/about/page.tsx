@@ -5,11 +5,7 @@ import { motion } from 'framer-motion';
 import Image from 'next/image';
 
 import Title from '@/components/shared/Title';
-import { stack, info } from '@/data/about';
-
-// interface AboutPageProps {
-//   title: string;
-// }
+import { stack, info, stackIcons } from '@/data/about';
 
 const AboutPage = () => {
   return (
@@ -21,7 +17,7 @@ const AboutPage = () => {
             <div className='about-img'>
               <div className='about-stack'>
                 <h4>My technical skills:</h4>
-                {stack.map((name, index) => (
+                {stackIcons.map((name, index) => (
                   <motion.span
                     key={index}
                     initial={{ opacity: 0, y: -50 }}
@@ -29,10 +25,10 @@ const AboutPage = () => {
                     transition={{
                       type: 'tween',
                       duration: 1,
-                      delay: 0.5 * index,
+                      delay: 0.2 * index,
                     }}
                   >
-                    {name}
+                    <img src={name} alt='name' width='50px' height='50px' />
                   </motion.span>
                 ))}
               </div>
@@ -43,6 +39,7 @@ const AboutPage = () => {
                 priority
                 width={400}
                 height={400}
+                className='about-image'
               />
             </div>
             <article className='about-info'>
@@ -73,9 +70,9 @@ const AboutWrapper = styled.section`
     display: flex;
     flex-direction: column;
 
-    img {
+    .about-image {
       margin-bottom: 2rem;
-      width: 20rem;
+      width: 22rem;
     }
 
     h4 {
@@ -84,14 +81,16 @@ const AboutWrapper = styled.section`
 
     .about-stack span {
       display: inline-block;
-      background: var(--secondary);
-      color: var(--black);
+      width: 50px;
+      height: 50px;
+      /* background: var(--secondary); */
+      /* color: var(--black); */
       margin-right: 0.5rem;
-      padding: 0.25rem 0.5rem;
-      text-transform: capitalize;
-      letter-spacing: 2px;
-      font-size: 0.85rem;
-      font-weight: bold;
+      /* padding: 0.25rem 0.5rem; */
+      /* text-transform: capitalize; */
+      /* letter-spacing: 2px; */
+      /* font-size: 0.85rem; */
+      /* font-weight: bold; */
       margin-bottom: 0.7rem;
     }
   }
@@ -99,6 +98,8 @@ const AboutWrapper = styled.section`
   .about-info p {
     line-height: 1.5;
     font-size: 1.1rem;
+    padding-left: 1rem;
+    text-align: justify;
   }
 
   @media screen and (min-width: 850px) {
@@ -111,7 +112,7 @@ const AboutWrapper = styled.section`
     .about-img {
       grid-column: 1 / span 5;
 
-      img,
+      .about-image,
       .about-stack {
         width: 30rem;
       }
