@@ -1,5 +1,5 @@
 export const stackIcons = [
-  '/icons/Javascript.svg',
+  '/icons/JavaScript.svg',
   '/icons/TypeScript.svg',
   '/icons/HTML.svg',
   '/icons/CSS.svg',
