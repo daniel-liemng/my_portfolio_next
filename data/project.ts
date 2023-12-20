@@ -28,7 +28,7 @@ export const projects = [
     id: '1',
     title: 'School Board',
     slug: 'school-board',
-    url: 'https://schoolboard-3vmnq0q5l-daniel-liemng.vercel.app',
+    url: 'https://schoolboard.vercel.app',
     github: 'https://github.com/daniel-liemng/schoolboard_mern',
     image: '/project-1.png',
     featured: true,
